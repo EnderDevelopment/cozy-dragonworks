@@ -1,0 +1,39 @@
+{
+  "format": "curated-mod-list",
+  "name": "Cozy Dragonworks",
+  "version": "1.0.0",
+  "minecraft": "1.20.1",
+  "loader": "fabric",
+  "loaderVersion": "0.15.11 or newer 0.15.x",
+  "launcher": "Modrinth App",
+  "mods": [
+    {"project": "fabric-api", "slug": "fabric-api", "side": "both", "role": "required library"},
+    {"project": "create", "slug": "create", "side": "both", "role": "required feature: mechanical automation"},
+    {"project": "dragon-mounts-legacy", "slug": "dragon-mounts-legacy", "side": "both", "role": "required feature: tameable and breedable dragons"},
+    {"project": "kaleidoscope-cookery", "slug": "kaleidoscope-cookery", "side": "both", "role": "required feature: expanded cooking and meals"},
+    {"project": "jei", "slug": "jei", "side": "client", "role": "recipe lookup"},
+    {"project": "rei", "slug": "roughly-enough-items", "side": "client", "role": "alternative recipe lookup; use JEI or REI, not both"},
+    {"project": "yungs-better-structures", "slug": "yungs-better-dungeons", "side": "both", "role": "enhanced dungeons"},
+    {"project": "towns-and-towers", "slug": "towns-and-towers", "side": "both", "role": "new villages, outposts, and towers"},
+    {"project": "when-dungeons-arise", "slug": "when-dungeons-arise", "side": "both", "role": "large adventure structures"},
+    {"project": "better-combat", "slug": "better-combat", "side": "both", "role": "weapon combat overhaul"},
+    {"project": "simply-swords", "slug": "simply-swords", "side": "both", "role": "new weapon types"},
+    {"project": "mythicmetals", "slug": "mythicmetals", "side": "both", "role": "new ores, tools, weapons, and armor"},
+    {"project": "handcrafted", "slug": "handcrafted", "side": "both", "role": "cozy furniture"},
+    {"project": "another-furniture", "slug": "another-furniture", "side": "both", "role": "functional furniture"},
+    {"project": "macaws-furniture", "slug": "macaws-furniture", "side": "both", "role": "matching furniture sets"},
+    {"project": "chipped", "slug": "chipped", "side": "both", "role": "many decorative block variants"},
+    {"project": "another-building-mod", "slug": "another-building-mod", "side": "both", "role": "extra building blocks"},
+    {"project": "supplementaries", "slug": "supplementaries", "side": "both", "role": "small decorative and utility blocks"},
+    {"project": "sodium", "slug": "sodium", "side": "client", "role": "performance"},
+    {"project": "lithium", "slug": "lithium", "side": "both", "role": "performance"},
+    {"project": "ferritecore", "slug": "ferritecore", "side": "both", "role": "memory optimization"},
+    {"project": "indium", "slug": "indium", "side": "client", "role": "render compatibility for Sodium"}
+  ],
+  "compatibilityNotes": [
+    "Select Fabric versions for every mod and Minecraft 1.20.1 only.",
+    "Install JEI or REI, never both in the same instance.",
+    "Create may require its Fabric-side dependency set shown by the launcher; accept those dependencies.",
+    "Some structure mods can make first world generation slower. Create a fresh world after installing the pack."
+  ]
+}
